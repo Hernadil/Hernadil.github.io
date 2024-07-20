@@ -1,0 +1,36 @@
+/* használt színek */
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    
+}
+.cont{
+    color: var(--main-color);
+    text-align: center;
+    width: 80%;
+    
+}
+#elso{
+    margin-right: 10px;
+}
+
+@media (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+    .cont{
+        margin-bottom: 20px;
+    }
+}
